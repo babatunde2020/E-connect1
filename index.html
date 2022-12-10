@@ -71,10 +71,10 @@
     <div class="container con2">
         <h1 class="display-6 h1a">Welcome to <span style="color:#00e600;">E-connect</span></h1>
         <p class="p1">The world's leading electronic data based system  operator, built  for <br> the worldwide workforce,  makes it so easy to earn money via <br> the internet through posting of adverts and banners.</p>
-        <a class="mnbb btn shadow" type="button" href=""  data-bs-toggle="modal" data-bs-target="#myModal1a">REGISTER!</a>
+        <a class="mnbb btn shadow" type="button" href=""  data-bs-toggle="modal" data-bs-target="#myModal1a">START NOW</a>
         <div class="anima"> </div>
         <div class="row d-flex p-1 mt-5">
-            <a href="" class="row1b btn shadow"  data-bs-toggle="modal" data-bs-target="#myModal1a">REGISTER!</a>
+            <a href="" class="row1b btn shadow"  data-bs-toggle="modal" data-bs-target="#myModal1a">START NOW</a>
            </div> 
 
              
@@ -607,65 +607,57 @@
 
   <!--all modals-->
   <!-- The Modal1-->
-<div class="modal" id="myModal1a">
+<div class="modal fade" id="myModal1a"  style="transition: 4s;">
     <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content signbody p-3">
+      <div class="modal-content signbody">
   
         <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Open new account</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-header" style="background-color:#e6ffe6;">
+          <div class="logo">E-connect.</i></div>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
         </div>
   
         <!-- Modal body -->
         <div class="modal-body">
-            <p>Join more than 7,500,000 advertisers!</p>
-            <form class="mt-5" action="" method="">
-                <div class="row mt-5">
-                    <div class="col-md-6 form-group">
-                      <label for="fname">First name, required:</label>
-                      <input type="text" class="form-control" placeholder="First name" name="firstname">
-                    </div>
-                    <div class="col-md-6 form-group">
-                      <label for="pwd">Last name, required:</label>
-                      <input type="lname" class="form-control" placeholder="Last name" name="lastname">
-                    </div>
+          <div class="card p-3 mt-5 mx-auto signupcard shadow">
+            <h3 style="text-align: center; font-weight: 800;">Open new account</h3>
+            <p style="text-align: center; font-weight:500">Join more than 7,500,000 advertisers!</p>
+            <form action="">
+                <div class="mb-3 mt-3">
+                  <input type="name" class="form-control" id="fname" placeholder="First name" name="email">
+                </div>
+                <div class="mb-3">
+                  <input type="name" class="form-control" id="lname" placeholder="Last name" name="name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="Email">
                   </div>
-
-                  <div class="row mt-3">
-                    <div class="col-md-6 form-group">
-                      <label for="email">Email, required:</label>
-                      <input type="email" class="form-control" placeholder="Enter a valid email" name="email">
-                    </div>
-                    <div class="col-md-6 form-group">
-                      <label for="pwd">Password, required:</label>
-                      <input type="password" class="form-control" placeholder="Set password" name="pswd" id="myInput">
-                      <span class="eye float-end" onclick="myFunction()">
+                  <div class="mb-3">
+                    <input type="password" class="form-control"  placeholder="Password" name="pswd" id="myInput">
+                    <span class="eye float-end" onclick="myFunction()">
                         <i id="hide1" class="fa fa-eye" aria-hidden="true"></i>
                         <i id="hide2" class="fa fa-eye-slash" aria-hidden="true"></i>
                       </span>
-                    </div>
                   </div>
-
                   <div class="col-12 mt-4">
                     <label for="comment">HOW DID YOU KNOW ABOUT US?</label>
                     <textarea class="form-control" rows="3" id="comment" name="txt"></textarea>
-                  </div>
-
-                  <p class="mt-2" style="font-weight: 500;font-size:x-small">By pressing Open Account, you confirm
-                    that you have read and agree with our terms and condition.</p>
-            </form>
-        </div>
+                  </div>  
+              </form>
+              <button data-bs-toggle="modal" data-bs-target="#myModal1b" class="btn btn-success sbtn shadow mx-auto mt-2">OPEN ACCOUNT</button>
+              <button onclick="myFunction2()" class="btn btn-light sbtn2 shadow mx-auto mt-2">LOG IN</button>
+              <p class="mt-3" style="font-size: x-small; font-weight:400">By pressing Open Account, you confirm
+                that you have read and agree with our Customer Agreement.</p>
+          </div>
+          </div>
   
         <!-- Modal footer -->
-        <div class="modal-footer">
-          <button class="mt-2 btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#myModal1b">OPEN ACCOUNT</button>
-        </div>
+       
   
       </div>
     </div>
-    <!-- The Modal -->
-<div class="modal" id="myModal1b">
+    <!-- The Modal payments -->
+<div class="modal fade" style="transition: 12s;" id="myModal1b">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
   
@@ -673,92 +665,139 @@
         <div class="modal-header" style="background: linear-gradient(130deg, #e6ffe6, #ccff99);">
           <ul class="navbar-nav mn mx-auto">
             <li class="">
-              <h4 class="deph4 mt-1"> <span class="depno shadow">1</span> DEPOSIT</h4>
+              <h4 class="deph4 mt-1"> <span class="depno shadow">REGISTER</span></h4>
             </li>
               <hr class="depline">
             <li class="">
-              <h4 class="deph4 mt-1" style="opacity: 0.3;"> <span class="depno shadow">2</span> TASK</h4>
+              <h4 class="deph4 mt-1" style="opacity: 0.3;"> <span class="depno shadow">TASK</span> </h4>
             </li>
           </ul>
           <div class="row mnb mt-3 mx-auto">
             <div class="col">
-                <h4 class="deph4 mt-1"> <span class="depno shadow">1</span>DEPOSIT</h4>
+                <h4 class="deph4 mt-1"> <span class="depno shadow">REGISTER</span></h4>
             </div>
             <div class="col">
                 <hr class="depline">
             </div>
             <div class="col">
-                <h4 class="deph4 mt-1" style="opacity: 0.3;"> <span class="depno shadow">2</span>TASK</h4>
+                <h4 class="deph4 mt-1" style="opacity: 0.3;"> <span class="depno shadow">TASK</span></h4>
             </div>
           </div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          <button type="button" class="btn-close" style="background-color:#003300;" data-bs-dismiss="modal"></button>
         </div>
   
         <!-- Modal body -->
         <div class="modal-body prfm">
-            
-
-              <div class="card shadow bg-light depcard mt-3">
-                <h4 class="deph4">Your account was successfully created <i class="fas fa-check rconfirm"></i></h4>
-                <p class="depp">Register your prefered plan</p>
-                <div class="accdbg shadow">
-                   <div class="row">
-                        <div class="col">
-                            <h6 class="acch6a">MT5</h6>
-                        </div>
-                        <div class="col">
-                            <h6 class="acch6">ACCOUNT NUMBER</h6>
-                            <p class="accp">8082225459</p>
-                        </div>
-                        <div class="col">
-                            <h6 class="acch6">SERVER</h6>
-                            <p class="accp">Opay</p>
-                        </div>
-                   </div>
-                   <div class="row py-2">
-                        <div class="col">
-                            <h6 class="acch6">ACCOUNT TYPE</h6>
-                            <p class="accp">E-connect MT5</p>
-                        </div>
-                        <div class="col">
-                            <h6 class="acch6">CURRENCY</h6>
-                            <p class="accp">NGN</p>
-                        </div>
-                        <div class="col">
-                            <h6 class="acch6">LEVERAGE</h6>
-                            <p class="accp">1:500</p>
-                        </div>
-                   </div>
-                </div>
-    
-                <p class="mt-3 depp"><b>NOTE:</b> Your payments are secured by <b>SSL</b> protocol</p>
-
-                <form>
-                  <select class="form-select">
-                    <option>bronze</option>
-                    <option>silver</option>
-                    <option>gold</option>
-                    <option>plantinum</option>
-                  </select>
-                 </form>    
-    
-               
-                <a href="tel:+08082225459" type="button" class="btn btn-success notsbtn mt-3 shadow">NOTIFY US AFTER TRANSFER</a>
+          <div class="card shadow bg-light mx-auto depcard mt-3">
+            <h4 class="deph4">Your account was successfully created <i class="fas fa-check rconfirm"></i></h4>
+            <div class="accdbg shadow">
+               <div class="row">
+                    <div class="col">
+                        <h6 class="acch6a">MT5</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="acch6">ACCOUNT NUMBER</h6>
+                        <p class="accp">8082225459</p>
+                    </div>
+                    <div class="col">
+                        <h6 class="acch6">SERVER</h6>
+                        <p class="accp">Opay</p>
+                    </div>
+               </div>
+               <div class="row py-2">
+                    <div class="col">
+                        <h6 class="acch6">ACCOUNT TYPE</h6>
+                        <p class="accp">E-connect MT5</p>
+                    </div>
+                    <div class="col">
+                        <h6 class="acch6">CURRENCY</h6>
+                        <p class="accp">NGN</p>
+                    </div>
+                    <div class="col">
+                        <h6 class="acch6">LEVERAGE</h6>
+                        <p class="accp">1:500</p>
+                    </div>
+               </div>
             </div>
-            <h3 class="mt-4" style="color: white;">PLANS:</h3>
+
+            <p class="mt-3 depp"><b>NOTE:</b> Your payments are secured by <b>SSL</b> protocol</p>
+
+            <div class="row mt-2">
+                <div class="col-4">
+                  <p style="font-size:xx-small ;font-weight:500"> <i class="stf2 fa fa-check"></i> NO COMMISSION</p>
+                </div>
+                <div class="col-4">
+                    <p style="font-size:xx-small ;font-weight:500"> <i class="stf2 fa fa-check"></i> BEST RATES</p>
+                  </div>
+                  <div class="col-4">
+                    <p style="font-size:xx-small ;font-weight:500"> <i class="stf2 fa fa-check"></i> 50% DEPOSIT BONUS</p>
+                  </div>
+              </div>
+
+              <img src="img/btc.png" class="mx-auto" alt="">
+
+              <p style="font-weight: 500; font-size:small" class="mt-3">Specify the deposit amount</p>
+              <div class="row mt-1">
+                <div class="col-md-3 py-2">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                            <label class="form-check-label" for="radio1">₦3,499.00 <br>$6.99</label>
+                          </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row mt-1">
+                <div class="col-md-3 py-2">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                            <label class="form-check-label" for="radio2">₦7,499.00 <br>$13.99</label>
+                          </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row mt-1">
+                <div class="col-md-3 py-2">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                            <label class="form-check-label" for="radio2">₦34,999.00 <br>$20.99</label>
+                          </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row mt-1">
+                <div class="col-md-3 py-2">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                            <label class="form-check-label" for="radio2">₦74,999.00 <br>$46.99</label>
+                          </div>
+                    </div>
+                </div>
+              </div>
+             
+
+              
+         <a href="tel:+08082225459" type="button" class="btn btn-success p-3 notsbtn mt-3 shadow">NOTIFY US AFTER TRANSFER</a>
+        </div>
+
+              
+            <h3 class="mt-4" style="color:white; font-size: small;">PLANS:</h3>
             <div class="row mt-3">
                 <div class="col-6">
                   <div class="card brcard shadow">
                       <h3 class="ph3">BRONZE</h3>
                       <p class="pp">Register: <span style="color: lightgreen; font-weight:700">₦3,499</span></p>
-                      <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦2,499</span></p>
+                      <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦999</span></p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="card scard shadow">
                     <h3 class="ph3">SILVER</h3>
                       <p class="pp">Register: <span style="color: lightgreen; font-weight:700">₦7,499</span></p>
-                      <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦4,999</span></p>
+                      <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦1,999</span></p>
                   </div>
                 </div>
               </div>
@@ -768,23 +807,21 @@
                     <div class="card gcard shadow">
                         <h3 class="ph3">GOLD</h3>
                         <p class="pp">Register: <span style="color: lightgreen; font-weight:700">₦34,999</span></p>
-                        <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦25,000</span></p>
+                        <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦6,000</span></p>
                     </div>
                   </div>
                   <div class="col-6">
                     <div class="card pltcard shadow">
                       <h3 class="ph3">Platinum</h3>
                         <p class="pp">Register: <span style="color: lightgreen; font-weight:700">₦74,999</span></p>
-                        <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦43,000</span></p>
+                        <p class="pp">Daily payments: <span style="color: lightgreen; font-weight:700">₦14,000</span></p>
                     </div>
                   </div>
                 </div>
         </div>
   
         <!-- Modal footer -->
-        <div class="modal-footer">
-          
-        </div>
+      
   
       </div>
     </div>
@@ -792,7 +829,7 @@
   </div>
 
   <!-- The about modal -->
-<div class="modal" id="myModal2">
+<div class="modal fade" id="myModal2">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
   
@@ -858,15 +895,14 @@
         </div>
   
         <!-- Modal footer -->
-        <div class="modal-footer">
-        </div>
+       
   
       </div>
     </div>
   </div>
 
   <!-- The Referral Program Modal -->
-<div class="modal" id="myModal3">
+<div class="modal fade" id="myModal3">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
 
@@ -922,9 +958,7 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
-  
-      </div>
+     
 
     </div>
   </div>
@@ -933,7 +967,7 @@
 
 
 <!-- The Careers Modal -->
-<div class="modal" id="myModal4">
+<div class="modal fade" id="myModal4">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
 
@@ -982,9 +1016,7 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
-        
-      </div>
+      
 
     </div>
   </div>
@@ -994,7 +1026,7 @@
 
 
 <!-- The E-commerce Modal -->
-<div class="modal" id="myModal5">
+<div class="modal fade" id="myModal5">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
 
@@ -1069,9 +1101,7 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
       
-      </div>
 
     </div>
   </div>
@@ -1087,7 +1117,7 @@
 
 
 <!-- The Get weekly payments Modal -->
-<div class="modal" id="myModal6">
+<div class="modal fade" id="myModal6">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
 
@@ -1213,9 +1243,7 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
-        
-      </div>
+     
 
     </div>
   </div>
@@ -1226,7 +1254,12 @@
   function myFunction1() {
     alert("Hello! you need to register a plan before you can gain access to the task area!");
   }
+  function myFunction2() {
+    alert("Hello! you need to register a plan before you can gain access to the task area!");
+  }
   </script>
+  </script>
+  
 
 <script src="index.js"></script>
 <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>

@@ -1184,28 +1184,28 @@ body{
     background-size: cover;
     color: white;
     padding: 7px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .scard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/silver.jpg');
     background-size: cover;
     color: white;
     padding: 7px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .gcard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/gold.jpg');
     background-size: cover;
     color: white;
     padding: 7px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .pltcard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/plantinum.jpg');
     background-size: cover;
     color: white;
     padding: 7px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .ph3{
     text-align: center;
@@ -2360,28 +2360,28 @@ body{
     background-size: cover;
     color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .scard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/silver.jpg');
     background-size: cover;
     color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .gcard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/gold.jpg');
     background-size: cover;
     color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .pltcard{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/plantinum.jpg');
     background-size: cover;
     color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 55px;
   }
   .ph3{
     text-align: center;
